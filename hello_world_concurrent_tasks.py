@@ -12,7 +12,7 @@ async def main():
         say_after(1, 'hello'))
 
     task2 = asyncio.create_task(
-        say_after(2, 'hello'))
+        say_after(2, 'world'))
 
     print(f"started at {time.strftime('%X')}")
 
